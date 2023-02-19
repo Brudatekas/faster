@@ -1,0 +1,88 @@
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.todolist {
+    width: 50%;
+}
+
+.addtodoform {
+    display: flex;
+    width: 50%;
+    appearance: none;
+    justify-content: space-between;
+}
+
+.cont {
+    padding: 10px;
+}
+
+.addtodoinput {
+    border: none;
+    appearance: none;
+    display: flex;
+
+}
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+input[name^="submit"] {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.blackbutton {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #000;
+    color: white;
+}
+
+p {
+    display: inline-block;
+}
+
+input[name^="duedate"] {
+    appearance: none;
+    outline: none;
+    margin: 0 5px;
+    display: flex;
+    margin: 0 0 5px;
+    border: none;
+}
+
+.groupduedate {
+    display: flex;
+    flex-direction: column;
+}
+
+.groupall {
+    display: flex;
+    flex-direction: column;
+}
+
+.todotaskcard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.groupallabove {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.colorpicker {
+    margin: 0 5px;
+}
